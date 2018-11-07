@@ -18,6 +18,10 @@ public class Clothes{
 		setSize(size);
 	}
 	
+	public Clothes(String color , String size,int prize){
+		this(color,size);
+		setPrize(prize);
+	}
 	
 	public void setColor(String color){
 		this.color = color;
@@ -39,7 +43,7 @@ public class Clothes{
 		this.prize = prize;
 	}
 	
-	public String getPrize(){
+	public int getPrize(){
 		return this.prize;
 	}
 }
