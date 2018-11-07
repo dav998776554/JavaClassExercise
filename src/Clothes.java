@@ -3,6 +3,7 @@ package Clothes;
 public class Clothes{
 	private String color;
 	private String size;
+	private int prize;
 	
 	public Clothes(){
 	}
