@@ -33,4 +33,12 @@ public class Clothes{
 	public String getsize(){
 		return this.size;
 	}
+	
+	public void setPrize(int prize){
+		this.prize = prize;
+	}
+	
+	public String getPrize(){
+		return this.prize;
+	}
 }
