@@ -1,4 +1,4 @@
-package Pants
+package Pants;
 
 public class Pants{
 	public Pants(){
