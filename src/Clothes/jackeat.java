@@ -23,7 +23,7 @@ public class jackeat extends Clothes implements AnitWinnr {
 
 	@Override
 	public void winner() {
-		// TODO Auto-generated method stub
+		
 
 	}
 
