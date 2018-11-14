@@ -8,6 +8,7 @@ public class Average4 {
 		int count = 0;
 		int num;
 		while(true) {
+			System.out.println("請輸入數值");
 			num = nextInt();
 			if(num == 0) {
 				break;
@@ -21,7 +22,7 @@ public class Average4 {
 	static int nextInt() {
 		String input = sc.next();
 		while(!input.matches("\\d*")) {
-			System.out.println("請輸入數字");
+			System.out.println("輸入錯誤,請輸入數字");
 			input = sc.next();
 		}
 		return Integer.parseInt(input);
