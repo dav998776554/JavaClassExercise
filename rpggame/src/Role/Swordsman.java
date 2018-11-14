@@ -4,19 +4,19 @@ public class Swordsman extends Role{
 		
 	public Swordsman(String Name , int Level , int Helthpoint){
 		this.Name = Name;
-		setCareer("åŠå£«");
+		setCareer("??å£«");
 		this.Level = Level;
 		this.Helthpoint = Helthpoint;
-		//setfight("æ‰“çˆ†ä»–");
+		//setfight("??“ç?†ä??");
 	}	
 	
 	public String toString(){
-		//return String.format("åŠå£« (%s, %d, %d)", this.Name, this.Level, this.Helthpoint);
-		return "åŠå£« " + super.toString();
+		//return String.format("??å£« (%s, %d, %d)", this.Name, this.Level, this.Helthpoint);
+		return "??å£« " + super.toString();
 	}
 	
 	public String fight(){
-		return "è‹±å‹‡æ‰“æ“Š";
+		return "?‹±??‡æ?“æ??";
 	}
 	
 }
