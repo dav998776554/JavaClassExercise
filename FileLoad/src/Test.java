@@ -14,7 +14,6 @@ public class Test {
 		try {
 			b();
 		} catch (NullPointerException ex) {
-			// TODO Auto-generated catch block
 			ex.printStackTrace();
 			Throwable t = ex.fillInStackTrace();
 			throw(NullPointerException)t;
