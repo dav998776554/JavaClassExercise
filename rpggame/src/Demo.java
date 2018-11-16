@@ -16,7 +16,7 @@ public class Demo implements Acation{
 		Scanner sca = new Scanner(System.in);
 		int moves = 0;
 		do{
-			System.out.println("請輸入前進方向 1:向東 2:向南 3:向西 4:向北 0:休息一日 調整狀態");
+			System.out.println("請輸入前進方向 1:向東 2:向西 3:向北 4:向南 0:休息一日 調整狀態");
 			moves = sca.nextInt();
 			if(moves == 0){
 				System.out.println("������");
@@ -31,22 +31,23 @@ public class Demo implements Acation{
 	public static void move(int aca){
 		switch(aca){
 			case Acation.STOP:
-				System.out.println("������");
+				System.out.println("原地扎營 休息一日");
 				break;
 			case Acation.RIGHT:
-				System.out.println("��韏�");
+				System.out.println("向東前進");
 				break;
 			case Acation.LEFT:
-				System.out.println("���粥");
+				System.out.println("向西前進");
 				break;
 			case Acation.UP:
-				System.out.println("��正韏�");
+				System.out.println("向北前進");
 				break;
 			case Acation.DOWN:
-				System.out.println("���粥");
+				System.out.println("向南前進");
 				break;
 			default:
-				System.out.println("銝�甇斗�誘");
+				System.out.println("無效操作");
+				assert false : "非定義常數";
 		}
 	}
 	
