@@ -24,7 +24,7 @@ public class ContravarianceDemo {
 	
 	private static void printlnForEach(Basket<? extends Fruit>basket) {
 		for(Fruit fruit:basket.things) {
-			System.out.printf("%s(%d,%d)", fruit.getClass().getName(),
+			System.out.printf("水果名稱 %s(價錢%d,重量%d)", fruit.getClass().getName(),
 					fruit.price,fruit.weight);
 		}
 		System.out.println();
