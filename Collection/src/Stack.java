@@ -11,10 +11,10 @@ public class Stack<E> {
 		this.cap = cap;
 	}
 	
-	public boolean push(E elem) {
+/*	public boolean push(E elem) {
 		if(isFull()) {
 			return false;
 		}
 		return deque.offerLast(elem);
-	}
+	}*/
 }
